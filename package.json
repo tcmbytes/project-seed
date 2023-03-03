@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexcristea/api-seed.git"
+    "url": "https://github.com/tcmbytes/project-seed.git"
   },
   "scripts": {
     ":clean": "rm -rf .build",

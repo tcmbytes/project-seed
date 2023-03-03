@@ -9,13 +9,13 @@ The seed you plant to grow your project.
 If you have `SSH` setup on your account, run the following command:
 
 ```bash
-$ git clone git@github.com:alexcristea/project-seed.git
+$ git clone git@github.com:tcmbytes/project-seed.git
 ```
 
 Otherwise, you may use the `HTTPS` version (might ask for username and password):
 
 ```bash
-$ git clone https://github.com/alexcristea/project-seed.git
+$ git clone https://github.com/tcmbytes/project-seed.git
 ```
 
 ### Install dependencies
