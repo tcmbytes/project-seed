@@ -1,0 +1,30 @@
+{
+  "coverageDirectory": "./reports/coverage",
+  "coverageReporters": [
+    "lcov"
+  ],
+  "maxWorkers": "50%",
+  "preset": "ts-jest",
+  "reporters": [
+    "default",
+    [
+      "jest-html-reporters",
+      {
+        "publicPath": "./reports",
+        "filename": "test-results.html",
+        "expand": true,
+        "theme": "darkTheme"
+      }
+    ],
+    [
+      "jest-junit",
+      {
+        "outputDirectory": "./reports",
+        "outputName": "test-results.xml"
+      }
+    ]
+  ],
+  "testMatch": [
+    "**/*.test.ts"
+  ]
+}

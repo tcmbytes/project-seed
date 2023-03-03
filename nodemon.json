@@ -1,0 +1,11 @@
+{
+    "exec": "node --inspect -r dotenv/config -r ts-node/register -r tsconfig-paths/register ./src/index.ts",
+    "ext": ".env, .json, .ts",
+    "ignore": [
+        "**.test.ts"
+    ],
+    "watch": [
+        "src/**/*",
+        ".env"
+    ]
+}

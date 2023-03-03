@@ -1,0 +1,10 @@
+*.js
+*.d.ts
+
+.env
+
+.idea
+.build
+
+node_modules
+reports
