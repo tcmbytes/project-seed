@@ -32,6 +32,11 @@
       "jest"
     ],
   },
+  "exclude": [
+    ".build",
+    "node_modules",
+    "reports"
+  ],
   "include": [
     "./src/**/*.ts",
     "./tests/**/*.ts"

@@ -1,3 +1,5 @@
+*.hbs
+
 .build
 reports
 node_modules
